@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.TOKEN_GIT }}
-        run: git push --force https://Igniteit:$TOKEN_GIT@huggingface.co/spaces/Igniteit/ocrdeploytest main
+        run: git push --force https://Igniteit:$TOKEN_GIT@huggingface.co/spaces/Igniteit/ocrdeploytest
