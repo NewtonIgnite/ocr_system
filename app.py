@@ -5,7 +5,7 @@ except ImportError: # pip < 10.0
 pkgs = freeze.freeze()
 for pkg in pkgs: print(pkg)
 import os 
-import uvicorn
+import uvicorn 
 from fastapi import FastAPI, HTTPException, File, UploadFile,Query
 from fastapi.middleware.cors import CORSMiddleware
 from PyPDF2 import PdfReader
